@@ -11,7 +11,7 @@ const TitleCards = () => {
         {cards_data.map((card, index) => {
           return <div className="card" key={index}>
             <img src={card.image} alt="" />
-            <p>card.name</p>
+            <p>{card.name}</p>
           </div>
         })}
       </div>
