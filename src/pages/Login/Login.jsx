@@ -16,7 +16,7 @@ const Login = () => {
           {signState==="Sign Up" ? <input type="text" placeholder='Your name' /> : <></>}
           
           <input type="email" placeholder='Your email' />
-          <input type="password" placeholder='password' />
+          <input type="password" placeholder='Password' />
           <button>{signState}</button>
 
           <div className="form-help">
