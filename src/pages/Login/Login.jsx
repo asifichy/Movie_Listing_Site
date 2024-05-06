@@ -29,8 +29,9 @@ const Login = () => {
         </form>
 
         <div className="form-switch">
-          {signState==="Sign In" ? <p>New To Netflix? <span>Sign Up Now</span></p> : 
-            <p>Already have account? <span>Sign In Now</span></p>}          
+          {/*it will check what the state is anb it will show or hide the text fields*/}
+          {signState==="Sign In" ? <p>New To Netflix? <span onClick={() => {setSignState("Sign Up")}}>Sign Up Now</span></p> : 
+            <p>Already have account? <span onClick={() => {setSignState("Sign In")}}>Sign In Now</span></p>}          
           
         </div>
       </div>
