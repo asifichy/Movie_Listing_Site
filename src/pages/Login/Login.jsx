@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png'
 
 const Login = () => {
 
-  const [signState, setSignState] = useState("Sign In")
+  const [signState, setSignState] = useState("Sign In") //initial state is SignIn and this is for switching state
 
   return (
     <div className='login'>
