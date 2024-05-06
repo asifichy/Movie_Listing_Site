@@ -30,7 +30,7 @@
 .hero-btn{
     display: flex;
     gap: 10px;
-    margin: 50px;
+    margin: 5px;
 }
 
 .hero-btn .btn img{
@@ -64,7 +64,9 @@
     background: #6d6d6e66;
 }
 
-
+.more-cards{
+    padding: 6%;
+}
 
 
 
