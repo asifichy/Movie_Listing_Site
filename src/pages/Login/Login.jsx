@@ -13,8 +13,8 @@ const Login = () => {
         <h1>{signState}</h1>
         <form> 
           {/*it will check what the state is anb it will show or hide the name input field*/}
-          {signState==="Sign Up"}
-          <input type="text" placeholder='Your name' />
+          {signState==="Sign Up" ? <input type="text" placeholder='Your name' /> : <></>}
+          
           <input type="email" placeholder='Your email' />
           <input type="password" placeholder='password' />
           <button>Sign Up</button>
