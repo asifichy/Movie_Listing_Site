@@ -33,10 +33,10 @@ const Home = () => {
       
       <div className="more-cards"> 
         {/*adding titles through title prompt*/}
-        <TitleCards title={"Blockbuster Movies"}/>
-        <TitleCards title={"Only On Netflix"}/>
-        <TitleCards title={"Upcoming"}/>
-        <TitleCards title={"Topics For You"}/>
+        <TitleCards title={"Blockbuster Movies"} category={"top_rated"}/>
+        <TitleCards title={"Only On Netflix"} category={"popular"}/>
+        <TitleCards title={"Upcoming"} category={"upcoming"}/>
+        <TitleCards title={"Topics For You"} category={"now_playing"}/>
       </div>
 
       <Footer/>
